@@ -17,7 +17,7 @@ class App extends Component {
     }
 
     carto_client = new carto.Client({
-      apiKey: 'publicDataset',
+      apiKey: 'default_public',
       username: 'oboix'
     })
     
